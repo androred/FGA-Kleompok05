@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fcfcfc;
+}
+
+
+/*ini untuk mengatur ukuran footer*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 20px;
+    color: #fcfcfc;
+}
+
+
+/*ini untuk mengatur posisi teks*/
+
+.footer-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/*ini untuk mengatur teks diatas icon*/
+
+.footer-contents h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+
+/*ini untuk mengatur teks dalam p*/
+
+.footer-contents p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+
+/*ini untuk mengatur posisi icon*/
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+
+/*ini untuk mengatur batas icon*/
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+}
+
+.socials a:hover {
+    color: rgb(0, 255, 242);
+}
+
+.socials a span:hover {
+    color: rgb(255, 94, 0);
+}
+
+
+/*untuk mengatur teks dibawah icon*/
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 10px;
+    text-decoration: capitalize;
+    text-align: center;
+}
+
+.footer-bottom p span {
+    text-transform: lowercase;
+}
+
+.footer-bottom {
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 200;
+}
